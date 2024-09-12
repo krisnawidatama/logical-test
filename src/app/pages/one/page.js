@@ -23,7 +23,7 @@ export default function FishBashPage() {
         e.preventDefault();
         const limit = e.target.limit.value;
         const output = printNumbers(limit);
-        alert(output.join(", ")); // Tampilkan hasil menggunakan alert
+        alert(output.join(", "));
     };
 
     return (
